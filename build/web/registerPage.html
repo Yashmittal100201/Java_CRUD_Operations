@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page| To enter in main page..</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <script src="./JS/indexjs.js" ></script>
+</head>
+<body>
+
+    <div class="Login-form-container">
+        <div class="form-container">
+            <div class="box left-box form">
+                <h2 class="heading-lg">
+                    Reginster to Colorlinb
+                </h2>
+                <p class="para">
+                    Lorem ipsum dolor, sit  placeat exercitationem?
+                </p>
+                <form action="RegisterClass" class="form">
+                    <input type="text" placeholder="Username" name="userName" required>
+                    <input type="password" placeholder="Password" name="Password" id="Password" required>
+                    <input type="password" placeholder="ConfermPassword" name="ConfermPassword" id="ConfermPassword" required>
+                    
+                    <button class="btn login-btn" onclick="checkPassword(document.getElementById('Password').value, document.getElementById('ConfermPassword').value)">Register</button>
+                    
+                    <div class="already-have-account">
+                        <a href="loginPage.html" class=" para">If already have an Account..</a>
+                    </div>
+                </form>
+            </div>
+            <div class="box right-box">
+                <img src="./Images/login-img.jpg" alt="login image is not found..">
+            </div>
+        </div>
+    </div>
+    <script src="./JS/indexjs.js"></script>
+    
+</body>
+</html>

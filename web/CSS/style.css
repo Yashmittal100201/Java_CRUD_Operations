@@ -1,0 +1,179 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html{
+    font-size: 61.5%;
+
+}
+
+body{
+    /*background-color: rgb(3, 3, 3);*/
+}
+
+
+/* ###############     Utility Class    ########################## */
+
+.heading-lg{
+    font-size: 3rem;
+    border-bottom: 0.1em solid red;
+    text-transform: capitalize;
+    margin-bottom: 0.3em;
+}
+
+.para{
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.692);
+}
+
+.btn{
+    
+    padding: 0.5em;
+    font-size: 2rem;
+}
+
+
+
+.Login-form-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 80em;
+    height: auto;
+    background: white;
+    padding: 2em 4em;
+    /* box-shadow: 10px 10px 3px white; */
+    
+    
+}
+.Login-form-container .form-container{
+    position: relative;
+    /* border: 1px solid red; */
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+
+.form{
+    margin-top: 3em;
+}
+
+.box{
+    position: relative;
+    /* border: 1px solid red; */
+    height: 100%;
+    width: 45%;
+    
+}
+
+.right-box{
+    position: absolute;
+    right: 2em;
+    border: 0.5px solid red;
+    height: 100%;
+    width: 45%;
+}
+.right-box img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    
+}
+
+
+.box input{
+    outline: none;
+    border: none;
+    border-bottom: 0.1em solid rgba(0, 0, 0, 0.39);
+    border-radius: 0.1em;
+    width: 100%;
+    padding: 0.4em;
+    margin-bottom: 0.7em;
+    /* background: rgba(0, 0, 0, 0.123); */
+    color: rgba(0, 0, 0, 0.39);
+    font-size: 2rem;
+    
+}
+
+.remember-me {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+/*###############       Register form CSS     #######################*/
+.already-have-account {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.already-have-account a{
+    text-decoration: underline;
+    /*width: 100%;*/
+    /*margin-top: 1em;*/
+    /*margin-bottom: 1em;*/
+}
+
+
+
+/*########################*/ 
+
+.remember-me input{
+    width: auto;
+    background:aquamarine;
+}
+
+.forgetPassword{
+    position: absolute;
+    right: 1em;
+    text-decoration: underline;
+}
+
+.login-btn{
+    width: 100%;
+    background:aquamarine;
+    border-radius: 0.2em;
+}
+
+.or-sign{
+    margin-top: 2em;
+}
+
+.media{
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin-top: 1em;
+}
+
+.media .media-box{
+    width: 2em;
+    height: 2em;
+    border-radius: 10em;
+    background: red;
+    padding: 0.5em;
+    font-size: 1.5rem;
+    margin-left: 1em;
+}
+
+.media .box-1{
+    background: rgb(6, 6, 199);
+}
+
+.media .box-2{
+    background: rgb(9, 206, 255);
+}
+
+.media .box-3{
+    background: rgb(255, 3, 3);
+}
+
+.media .fa-facebook-f, .media .fa-twitter, .media .fa-google-plus-g{
+    color: white;
+}
+

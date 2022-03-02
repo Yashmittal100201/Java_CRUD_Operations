@@ -1,0 +1,357 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+
+/* ###############         html element styling      ############ */
+/*  video {
+    * Simulationg background-size: cover
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    width: 100%;
+  
+    position: absolute;
+    top: 0;
+    left: 0;
+} */
+
+
+
+/* ################    Utility Class     ################# */
+
+.container{
+    position: relative;
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.lg-heading{
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+
+.md-heading{
+    font-size: 2.2rem;
+}
+
+.text-red{
+    color:red;
+}
+
+.text-black{
+    color: black;
+}
+
+.text-light{
+    color: #f4f4f4;
+}
+.text-gray{
+    color: #555555;
+}
+
+.para1{
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    
+} 
+
+.btn{
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 10em;
+    text-decoration: none;
+    padding: 0.5em 1em;
+
+}
+
+.btn-primary{
+    background-color: #f4f4f4;
+}
+.btn-secondary{
+    background-color: #f4f4f4;
+    margin-top: 10em;
+    border: 0.4rem solid red;
+}
+.btn-secondary:hover{
+    background:  linear-gradient(rgba(255, 16, 16, 0.1),rgba(243, 20, 20, 0.1)),#f4f4f4;
+}
+
+
+/* #######################        header Styling          ################## */
+
+
+.header{
+    object-fit: cover;
+    position: relative;
+    /* font-size: 10px; */
+    height: 95vh;
+    width: 100%;
+    color: white;
+    background-image: linear-gradient(to right,rgb(0,0,0,0.5),rgb(0,0,0,0.5)),url(../Images/header-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar{
+    position: sticky;
+    top: 0%;
+
+    overflow: hidden;
+    width: 100%;
+    background-color: rgb(0, 0, 0,0.5);
+    text-decoration: none;
+    padding-top: 1em;
+}
+
+/* .navbar::after{
+    content: '';
+    display: block;
+    clear: both;
+} */
+
+.logo{
+    position: relative;
+    margin-bottom: 2.5em;
+    float:left;
+    text-decoration: none;
+}
+
+.logo a{
+    text-decoration: none;
+}
+
+.nav-items{
+    position: relative;
+    float:right;
+    text-transform: uppercase;
+    margin-top: 0.5em;
+    margin-bottom: 2em;
+}
+
+.nav-items li{
+    display: inline-block;
+    list-style: none;
+    
+}
+
+.navbar ul li a{
+    display: block;
+    font-size: 2rem;
+    padding: 0rem 1.5rem;
+    color: white;
+    text-decoration: none;
+
+} 
+.navbar ul li a:hover{
+    border-bottom: 0.2rem solid white;
+} 
+
+.navbar ul li a span{
+    color: rgb(240, 253, 56);
+} 
+
+.logo,li{
+    margin-bottom: 0.1em;
+    letter-spacing: 0.25em;
+
+}
+
+h1,h2,h3{
+    margin-bottom: 0.5em;
+}
+
+
+/* ##################     header content styling     ##################### */
+
+.header-content{
+    position: absolute;
+    max-width: 100rem;
+    width: 80rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin: 0 auto;
+    height: auto;
+    padding: 2em;
+    text-align: center;
+    background-color: rgb(10, 10, 10,0.2);
+    overflow: hidden;
+}
+
+
+
+header .header-content p{
+    margin-bottom: 1.5em;
+}
+
+
+/* ########################      Showcase styling     ####################### */
+
+
+.showcase {
+    background-color: #dddddd;
+    padding: 10em 0;
+}
+
+
+
+.row{
+    height: 30rem;
+}
+
+.showcase .row1{
+    margin-bottom: 10em;
+}
+
+.row .img-box1{
+    height: 100%;
+    width: 50%;
+    
+}
+
+.row .text-box2{
+    position: relative;
+    top: 1.8em;
+    height: 88%;
+    width: 50%;
+    padding: 4em;
+    box-shadow: 0px 1px  5px black;
+    background-color: white;
+}
+
+
+.row .img-box1 img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.row1 .text-box2{
+    /* border-bottom-left-radius: 5rem; */
+    /* border-top-left-radius: 5rem; */
+    right: 3rem;
+}
+
+.row2 .text-box2{
+    /* border-bottom-right-radius: 5rem; */
+    /* border-top-right-radius: 5rem; */
+    left: 3rem;
+}
+.row1 .img-box1,.row2 .text-box2{
+    float: left;
+
+}
+
+.row2 .img-box1,.row1 .text-box2{
+    float: right;
+
+}
+.row::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.para2{
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    margin-bottom: 1.5em;
+}
+
+/* ##############################     Banner Styling         ####################### */
+.banner{
+    background-color: #dddddd;
+    padding-bottom: 5rem;
+}
+.banner .container{
+    background-color: #dddddd;
+    box-shadow: 1px 1px 10px black;
+    
+}
+
+.banner .banner-icon{
+    margin-bottom: 0.5em;
+}
+
+.banner .container{
+    height: 35em;
+}
+
+.banner .container .banner-box{
+    padding: 5em;
+    text-align: center;
+}
+
+.banner .container .banner-box h1{
+    color: #f4f4f4;
+}
+
+.banner  .box1, .banner  .box2, .banner  .box3{
+    color: #f4f4f4;
+    width: 33.33333333%;
+    height: 100%;
+    float: left;
+}
+
+.banner::after{
+    content: ' ';
+    display: block;
+    clear: both;
+}
+
+.banner  .box1{
+    background-color: rgb(20, 20, 20);
+}
+
+.banner  .box1 i{
+    color:rgb(247, 38, 31);
+}
+
+.banner  .box2{
+    background-color: rgb(247, 38, 31);
+}
+
+.banner  .box3{
+    background-color: rgb(20, 20, 20);
+}
+
+.banner  .box3 i{
+    color:rgb(247, 38, 31);
+}
+
+/* ###########################        Footer Styling    ####################*/
+
+.footer{
+    text-align: center;
+    background-color: black;
+    padding: 2em;
+}
+
+.footer .footer-icons{
+    margin-bottom: 1em;
+}
+
+.footer .footer-icons i{
+    margin-right: 0.5em;
+}
+
+.footer .footer-para{
+    font-size: 2rem;
+}
+
+
+
+@media (max-width: 500px){
+    html{
+        font-size: 31%;
+    }
+}
